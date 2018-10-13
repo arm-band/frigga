@@ -1,0 +1,20 @@
+{
+  "name": "Frigga",
+  "version": "0.0.1",
+  "description": "jsonファイルの配列データを、1つずつmdファイルに切り出すツール",
+  "main": "gulpfile.js",
+  "scripts": {
+    "halkrobe": "mkdirp md",
+    "gulp": "gulp",
+    "vallhala": "rimraf ./md/ ./package-lock.json"
+  },
+  "author": "Arm Band",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "next",
+    "html-md-2": "^3.0.0",
+    "mkdirp": "^0.5.1",
+    "rename-files-cli": "^1.0.1",
+    "rimraf": "^2.6.2"
+  }
+}
